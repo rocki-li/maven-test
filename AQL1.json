@@ -1,4 +1,4 @@
-items.find(
+{items.find(
     {
         "name":{"$match":"my-app*.jar"},
         "$or":[
@@ -16,3 +16,4 @@ items.find(
             }
           ]
 }).include("archive.entry")
+}
