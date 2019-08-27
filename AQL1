@@ -1,0 +1,6 @@
+{
+    "sourceRepo" : "docker-demo-local",
+    "dockerImage" : "hello-world",
+    "sourceTag" : "@",
+    "destTag" : "latest"
+}
