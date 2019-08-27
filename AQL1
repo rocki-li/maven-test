@@ -1,6 +1,1 @@
-{
-    "sourceRepo" : "docker-demo-local",
-    "dockerImage" : "hello-world",
-    "sourceTag" : "@",
-    "destTag" : "latest"
-}
+items.find({"@build.name":{"$eq":"maven-releases-local"}})
